@@ -19,11 +19,12 @@ Step 4: Remove # and set IP Address as needed.
 
 <img width="501" alt="Screen Shot 2023-01-03 at 9 44 50 AM" src="https://user-images.githubusercontent.com/47360319/210381108-6eb942d4-95a8-48d8-a181-809f5b07cf8a.png">
 
-*1. removing # will activate the settings below*
+>*1. removing # will activate the settings below*
 
-*2. remove # and set IP after =, example `static ip_address=10.1.65.41/24` (IP=10.1.65.41) (Subnet=255.255.255.0)*
+>*2. remove # and set IP after =, example `static ip_address=10.1.65.41/24` (IP=10.1.65.41) (Subnet=255.255.255.0)*
+>>[subnet cheet sheet](https://docs.netgate.com/pfsense/en/latest/network/cidr.html)
 
-*3 remove # and set gateway/router after =, example `static routers=10.1.65.254` (Router=10.1.65.254)*
+>*3. remove # and set gateway/router after =, example `static routers=10.1.65.254` (Router=10.1.65.254)*
 
 Step 5: Save changes, (CRTL+X) yes when prompted.
 
